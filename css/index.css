@@ -1,0 +1,152 @@
+body{
+  border: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+.top {
+  height: 13vh;
+  width: 100vw;
+  background-color:#ced9d1;
+  display:flex;
+  position: relative;
+}
+
+.navbar{
+  height: auto;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  text-align: right;
+}
+
+
+.navbtn{
+   height: 2vw;
+   border-width: 1px;
+   border-color: white;
+   background-color: black;
+   color:white;
+   font-family: monospace;
+   margin-right: 1vw;
+   margin-top: 1px;
+   margin-bottom: 1px;
+}
+
+#logo{
+  margin-top: 1vh;
+  margin-left: 20vw;
+  height: 10vh;
+}
+
+#titulo{
+  padding-left: 24vw;
+  font-family: monospace;
+  font-size: 3vw;
+  float: right;
+}
+
+#conteudo{
+  margin-left: 15vw;
+  margin-top: 5vh;
+  font-size: 3vh;
+}
+
+.entrada{
+  height: 50vh;
+  padding-top: 2vw;
+}
+
+.cont{
+  margin-right: 30vw;
+  text-indent: 2vw;
+}
+
+#descript{
+  font-size: 1vw;
+  color: grey;
+  margin-right: 30vw;
+}
+
+.fromtop{
+  margin-left: 3vw;
+  height: 50vh;
+}
+
+@media only screen and (max-width: 700px) {
+
+  .navbtn{
+    height: 6vw;
+  }
+
+  .navbar{
+    display:block;
+    height: auto;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+
+
+  #conteudo{
+    margin-left: 6vw;
+    align-self: center;
+    margin-top: 5vh;
+    font-size: 5vw;
+    display: inline;
+}
+
+  #logo{
+    margin-top: 1vh;
+    margin-left: 10vw;
+    height: 7vh;
+  }
+
+  .entrada{
+    margin-top: 5px;
+    width: 85vw;
+    height: auto;
+  }
+
+  #titulo{
+    margin-top:10vw;
+    padding-left: 5vw;
+    font-family: monospace;
+    font-size: 5vw;
+  }
+
+  #search{
+    margin-top: 5px;
+    font-family: monospace;
+    border: none;
+    border-radius: 5px;
+    height: 60%;
+  }
+
+  .cont{
+    margin-right: 0px;
+   padding-left: 4vw;
+   padding-right: 4vw;
+   text-indent: 5vw;
+  }
+
+  .navbar{
+    display: inline-block;
+    height: 4vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+
+  #descript{
+    padding-left:4vw;
+    font-size: 3vw;
+  }
+
+  .fromtop{
+    width: 82vw;
+    height: auto;
+  }
+}

@@ -1,0 +1,83 @@
+body{
+  border: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+.top{
+  height: 13vh;
+  width: 100vw;
+  background-color:#ced9d1;
+  display:flex;
+  position: relative;
+}
+
+.navbar{
+  display: block;
+  height: 4vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  text-align: right;
+}
+
+.navbtn{
+ height: 98%;
+ border-width: 1px;
+ border-color: white;
+ background-color: black;
+ color:white;
+ font-family: monospace;
+ margin-right: 1vw;
+}
+
+#logo{
+  margin-top: 1vh;
+  margin-left: 20vw;
+  height: 10vh;
+}
+
+#titulo{
+  padding-left: 24vw;
+  font-family: monospace;
+  font-size: 3vw;
+  float: right;
+}
+
+.content{
+  font-size: 1vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+
+@media only screen and (max-width: 700px) {
+  #logo{
+    margin-top: 1vh;
+    margin-left: 10vw;
+    height: 7vh;
+  }
+
+  #titulo{
+    margin-top:10vw;
+    padding-left: 5vw;
+    font-family: monospace;
+    font-size: 5vw;
+  }
+
+
+  .navbar{
+    display: inline-block;
+    height: 4vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+
+  .content{
+    font-size: 2vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+}
